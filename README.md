@@ -29,7 +29,8 @@ Ao longo do curso, esta seção será atualizada com os principais aprendizados,
 
 ### Semana 0
 
-Apresentação do trabalho final 1ª Fase do Embarcatech 2024
+| [Apresentação Trabalho Final 1ª Fase do Embarcatech 2024](https://github.com/JorgeWilker/U7T_JWMA) | Link do projeto no Github |
+
 
 
 ### Semana 1
