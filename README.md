@@ -18,6 +18,7 @@ Este repositório reúne os projetos desenvolvidos ao longo do curso de Sistemas
 
 | Projeto | Descrição |
 |---------|-----------|
+| [Projeto #0 - Trabalho Final 1ª Fase do Embarcatech 2024](https://github.com/JorgeWilker/U7T_JWMA) | Link do projeto no Github |
 | [Projeto #1 - Galton Board Digital](./projetos/galton_board/) | Simulação de eventos aleatórios com visualização em display OLED e histograma |
 | [Projeto #2 - Semáforo com Botão](./projetos/semaforo_botao/) | Implementação de um semáforo controlado por botão |
 | [Projeto #3 - Sensor de Temperatura com Alarme](./projetos/alarme_temp/) | Monitoramento de temperatura com alarme sonoro |
@@ -26,21 +27,13 @@ Este repositório reúne os projetos desenvolvidos ao longo do curso de Sistemas
 
 Ao longo do curso, esta seção será atualizada com os principais aprendizados, desafios enfrentados e soluções encontradas.
 
+### Semana 0
+
+Apresentação do trabalho final 1ª Fase do Embarcatech 2024
+
+
 ### Semana 1
-- Entendi como funciona a comunicação I2C com displays OLED.
-- Comecei a explorar a programação básica de microcontroladores.
 
-### Semana 2
-- Consegui gerar som com diferentes frequências usando PWM.
-- Tive dificuldades iniciais com o controle de intensidade do buzzer, resolvidas com análise do duty cycle.
-
-### Semana 3
-- Testei algoritmos de controle PID simples com um motor DC antes de aplicar no robô equilibrista.
-- Descobri a importância da calibração dos sensores antes do uso em tempo real.
-
-> Você pode usar esta seção como um diário pessoal técnico.  
-
----
 
 ## 📜 Licença
 
