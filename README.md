@@ -19,21 +19,23 @@ Este repositório reúne os projetos desenvolvidos ao longo do curso de Sistemas
 | Projeto | Descrição |
 |---------|-----------|
 | [Projeto #0 - Trabalho Final 1ª Fase do Embarcatech 2024](https://github.com/JorgeWilker/U7T_JWMA) | Link do projeto no Github |
-| [Projeto #1 - Galton Board Digital](./projetos/galton_board/) | Simulação de eventos aleatórios com visualização em display OLED e histograma |
-| [Projeto #2 - Semáforo com Botão](./projetos/semaforo_botao/) | Implementação de um semáforo controlado por botão |
-| [Projeto #3 - Sensor de Temperatura com Alarme](./projetos/alarme_temp/) | Monitoramento de temperatura com alarme sonoro |
+
 
 ## 📔 Diário de Bordo (Reflexões e Aprendizados)
 
 Ao longo do curso, esta seção será atualizada com os principais aprendizados, desafios enfrentados e soluções encontradas.
 
-### Semana 0
+## Semana 1
+Nessa semana confirmei a matricula para a residência tecnológica da EMBARCATECH e envei os documentos necessários. 
 
-| [Apresentação Trabalho Final 1ª Fase do Embarcatech 2024](https://github.com/JorgeWilker/U7T_JWMA) | Link do projeto no Github |
+## Semana 2
+Nessa semana conheci o edifício vértice e a Unicamp. Também conheci professores e alunos, espandi minha rede de relacionamentos conhecendo pessoas maravilhosas que tem a visão semelhante a minha.
 
+## Semana 3
+Durante a terceira semana tive a oportunidade de apresentar meu projeto junto aos professores e alunos, foi muito edificante também ver a apresentação do projetos dos colegas do curso.| [Apresentação Trabalho Final 1ª Fase do Embarcatech 2024](https://github.com/JorgeWilker/U7T_JWMA) | Link do projeto no Github |
 
-
-### Semana 1
+## Semana 4
+Nessa semana aprendemos detalhes relacionados ao git e github, aprendi a diferença entre ''master e main' e ficou mais claro as regras de bom uso desta plataforma.
 
 
 ## 📜 Licença
