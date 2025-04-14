@@ -37,6 +37,11 @@ Durante a terceira semana tive a oportunidade de apresentar meu projeto junto ao
 ## Semana 4
 Nessa semana aprendemos detalhes relacionados ao git e github, aprendi a diferença entre ''master e main' e ficou mais claro as regras de bom uso desta plataforma.
 
+## Semana 5
+Essa semana foi marcada por uma visita no campus da Unicamp. Laboratórios, centros de pesquisa foram alvo desse encontro, foi frisado que como alunos do EmbacaTech poderiamos usufruir dessa estrutura quando se fizesse necessário.
+
+## Semana 6
+Ela foi marcada pelo inicio das atividade ''Hands On'' onde desenvolvemos três tarefas. A primeira foi relacionada ao um contador decrescente com registro de eventos por interrupção. A segunda tarefa foi desenvolver um sofware de um programa em C para ler os valores convertidos digitalmente do joystick da BitDogLab. Os valores podem ser mostrados no terminal ou então no display OLED. monitoramento da medição da temperatura interna do RP2040 e a terceira foi 
 
 ## 📜 Licença
 
