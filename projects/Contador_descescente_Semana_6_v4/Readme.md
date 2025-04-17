@@ -46,6 +46,6 @@ Ao executar o código, espera-se que:
 
 ## 📜 Licença
 
-MIT License
+GPL-3.0 License
 
-[Leia mais sobre a licença aqui ](https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT#:~:text=A%20licen%C3%A7a%20MIT%2C%20tamb%C3%A9m%20chamada,livre%20quanto%20em%20software%20propriet%C3%A1rio.)
+[Leia mais sobre a licença aqui ](https://www.gnu.org/licenses/#GPL)
