@@ -38,5 +38,3 @@ Ao executar o projeto, espera-se que:
 
 📜 Licença
 GPL-3.0 License
-
-(Você pode adicionar um link para a licença completa se desejar) 
