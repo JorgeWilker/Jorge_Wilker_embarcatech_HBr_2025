@@ -1,0 +1,16 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureSettings": {
+        "PICO_SDK_PATH": "${env:PICO_SDK_PATH}"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "math.h": "c",
+        "cyw43_arch.h": "c"
+    },
+    "editor.formatOnSave": true,
+    "cmake.generator": "Ninja"
+}

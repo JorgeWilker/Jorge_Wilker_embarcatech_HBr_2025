@@ -1,0 +1,57 @@
+---
+description: use a cada projeto essa estrutura. A medida que o projeto vai crescendo pode ser acrescentado ou retirado novos dados ao projeto.
+globs: 
+alwaysApply: false
+---
+---
+description: Regras para padronização de projetos com Raspberry Pi Pico W na BitDogLab
+globs: ["**/*.c", "**/*.h", "**/CMakeLists.txt", "**/README.md"]
+alwaysApply: true
+---
+
+# 📂 Estrutura de Pastas
+- O projeto deve seguir a estrutura de diretórios:
+  - `src/`: arquivos `.c` e `.h` do código-fonte principal
+  - `assets/`: arquivos adicionais (ex: imagens, fontes, dados)
+  - `docs/`: documentação, diagramas e informações de apoio
+  - `build/`: diretório gerado para compilação (adicionado ao `.gitignore`)
+  - `.vscode/`: configurações do VS Code
+  - `README.md`: na raiz do projeto
+  - `CMakeLists.txt`: na raiz do projeto
+  - `pico_sdk_import.cmake`: também na raiz
+
+# ⚙️ CMakeLists.txt (regras específicas)
+- `cmake_minimum_required(VERSION 3.13)` deve estar definido no topo.
+- Use `set(CMAKE_C_STANDARD 11)` e `set(CMAKE_CXX_STANDARD 17)`.
+- Defina `PICO_BOARD pico_w` para garantir suporte à conectividade Wi-Fi.
+- Utilize `include(pico_sdk_import.cmake)` e `pico_sdk_init()`.
+- O nome do projeto deve ser genérico ou configurável: `project(nome_do_projeto C CXX ASM)`.
+- Use `add_executable(...)` apontando para arquivos da pasta `src/`.
+- Linke com as bibliotecas: `pico_stdlib`, `pico_cyw43_arch_lwip_threadsafe_background`, `m`.
+- Ative saída USB e UART com `pico_enable_stdio_usb` e `pico_enable_stdio_uart`.
+- Adicione `pico_add_extra_outputs(...)` para gerar `.uf2`.
+
+# 🧠 Estilo de Código (C)
+- Use **snake_case** para nomes de variáveis e funções.
+- Separe o código em arquivos `.c` e `.h` dentro da pasta `src/`.
+- Escreva comentários explicativos acima das funções importantes.
+- Evite nomes genéricos como `function1`, `file1`, etc.
+
+# 📘 README.md (padrão com emojis e estrutura clara)
+- Deve conter seções fixas e com formatação clara:
+  - `## 🎯 Objetivo`
+  - `## 🔧 Componentes Usados`
+  - `## ⚡ Pinagem dos Dispositivos` (em tabela Markdown)
+  - `## 💾 Como Compilar e Executar` (com comandos em blocos de código)
+  - `## 📈 Resultados Esperados ou Observados`
+  - `## 📂 Arquivos` (lista explicando cada arquivo importante)
+  - `## 📜 Licença` (ex: GPL-3.0 com link)
+- Use Markdown com emojis e bullets para facilitar a leitura.
+- A linguagem deve ser clara e objetiva, sem termos genéricos ou ambíguos.
+
+# ✅ Extras
+- Inclua `.gitignore` com pelo menos o diretório `build/`.
+- Evite incluir testes ou referências a `unity` se não for usado.
+- Se usar bibliotecas externas (ex: `ssd1306.c/h`), mantenha elas bem documentadas e separadas.
+
+
