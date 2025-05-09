@@ -1,4 +1,14 @@
+Projetos de Sistemas Embarcados - EmbarcaTech 2025
+
 # 📂 Projeto Galton Board v1.1
+
+Autor: Jorge Wilker Mamede de Andrade
+
+Curso: Residência Tecnológica em Sistemas Embarcados
+
+Instituição: EmbarcaTech - HBr
+
+Campinas, 09 de maio 2025
 
 ## 🎯 Objetivo
 Este projeto simula um Galton Board usando Raspberry Pi Pico, demonstrando distribuição binomial com visualização em display OLED.

@@ -16,8 +16,8 @@
 #include "hardware/timer.h"
 
 /* Inclusão dos módulos do projeto */
-#include "ssd1306_i2c.h"
-#include "galton.h"
+#include "../include/ssd1306_i2c.h"
+#include "../include/galton.h"
 
 /**
  * @brief Definição dos pinos GPIO para os botões

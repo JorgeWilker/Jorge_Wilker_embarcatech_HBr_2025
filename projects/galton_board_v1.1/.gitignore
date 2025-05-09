@@ -3,7 +3,7 @@ build/
 build-*/
 
 # IDE e Editores
-.vscode/*
+.vscode/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/settings.json
@@ -115,7 +115,7 @@ CTestTestfile.cmake
 *.map
 
 # Editor files
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -124,4 +124,4 @@ CTestTestfile.cmake
 *~
 
 # Ignorar arquivos de configuração local
-.cursor/ 
+.cursor/

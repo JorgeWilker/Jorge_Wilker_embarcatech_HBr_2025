@@ -40,11 +40,11 @@ pico_sdk_init()
 # -----------------------------------------------------------------------------
 # Biblioteca simplificada do display SSD1306
 add_library(ssd1306_i2c
-    src/ssd1306_i2c.c
+    include/ssd1306_i2c.c
 )
 
 target_include_directories(ssd1306_i2c PUBLIC
-    ${CMAKE_CURRENT_LIST_DIR}/src
+    ${CMAKE_CURRENT_LIST_DIR}/include
 )
 
 target_link_libraries(ssd1306_i2c
@@ -57,11 +57,12 @@ target_link_libraries(ssd1306_i2c
 # -----------------------------------------------------------------------------
 add_executable(galton_board
     src/main.c
-    src/galton.c
+    include/galton.c
 )
 
 target_include_directories(galton_board PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/src
+    ${CMAKE_CURRENT_LIST_DIR}/include
 )
 
 # Bibliotecas para o executável principal
