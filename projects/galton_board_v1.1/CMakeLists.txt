@@ -99,7 +99,7 @@ pico_enable_stdio_uart(galton_board 1)
 pico_add_extra_outputs(galton_board) 
 
 # -----------------------------------------------------------------------------
-# Instruções para compilação
+# Instruções para compila
 # -----------------------------------------------------------------------------
 # Para compilar com suporte wireless (apenas para Pico W):
 #   cmake -DENABLE_WIRELESS=ON -DPICO_BOARD=pico_w ..
