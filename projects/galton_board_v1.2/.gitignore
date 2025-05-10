@@ -1,0 +1,127 @@
+# Build directory
+build/
+build-*/
+
+# IDE e Editores
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.log
+.cache/
+
+# Arquivos de compilação
+*.o
+*.obj
+*.elf
+*.map
+*.bin
+*.dis
+*.uf2
+*.hex
+*.a
+*.lib
+*.la
+*.lo
+
+# Arquivos gerados pelo CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+
+# Arquivos de precompilação
+*.gch
+*.pch
+
+# Bibliotecas dinâmicas
+*.so
+*.dylib
+*.dll
+
+# Executáveis
+*.exe
+*.out
+*.app
+
+# Arquivos específicos do SDK
+generated/
+pico-sdk/
+
+# Arquivos do sistema
+.nfs*
+.Trash-*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos específicos deste projeto
+# Adicione aqui arquivos específicos que devem ser ignorados
+
+# Fortran module files
+*.mod
+*.smod
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.elf
+*.hex
+*.bin
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Pico specific files
+*.uf2
+*.dis
+*.map
+
+# Editor files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*~
+
+# Ignorar arquivos de configuração local
+.cursor/
