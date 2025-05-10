@@ -8,7 +8,7 @@ cmake_minimum_required(VERSION 3.13)
 if(DEFINED ENV{PICO_SDK_PATH})
     set(PICO_SDK_PATH $ENV{PICO_SDK_PATH})
 else()
-    set(PICO_SDK_PATH "C:/Users/Jorge Wilker Tech/.pico-sdk/sdk/2.1.1" CACHE PATH "Path to the Raspberry Pi Pico SDK")
+set(PICO_SDK_PATH "C:/Users/Jorge Wilker Tech/.pico-sdk/sdk/2.1.1" CACHE PATH "Path to the Raspberry Pi Pico SDK")
 endif()
 
 # Configuração do padrão de compilação
@@ -80,13 +80,13 @@ if(ENABLE_WIRELESS AND (${PICO_BOARD} STREQUAL "pico_w"))
     message(STATUS "Compilando com suporte wireless para Pico W")
 else()
     # Configuração padrão (sem wireless)
-    target_link_libraries(galton_board
-        pico_stdlib
-        hardware_i2c
-        hardware_adc
+target_link_libraries(galton_board
+    pico_stdlib
+    hardware_i2c
+    hardware_adc
         m                     # Biblioteca matemática
-        ssd1306_i2c
-    )
+    ssd1306_i2c
+)
     
     message(STATUS "Compilando versão padrão sem componentes wireless")
 endif()
@@ -96,7 +96,7 @@ pico_enable_stdio_usb(galton_board 1)
 pico_enable_stdio_uart(galton_board 1)
 
 # Gera arquivos extras como .uf2
-pico_add_extra_outputs(galton_board)
+pico_add_extra_outputs(galton_board) 
 
 # -----------------------------------------------------------------------------
 # Instruções para compilação
