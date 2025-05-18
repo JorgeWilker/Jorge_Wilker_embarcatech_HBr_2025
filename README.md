@@ -46,7 +46,7 @@ Ela foi marcada pelo inicio das atividade ''Hands On'' onde fomos desafiados a d
 ## Semana 7     (28/04/2025)
 Continuação - Unidade 1 - Programação para Microcontroladores
 Nessa semana, continuamos aprofundando conceitos de programação para microcontroladores na Unidade 1. Tivemos a oportunidade de desenvolver uma tarefa conceitual de um sistema embarcado com conectividade (WiFi ou Ethernet), aplicando os conceitos discutido nesta semana. O titulo da tarefa foi: Projeto Integrado de IoT com Monitoramento e Atualização OTA. Os integrantes do grupo foram eu, Mauricio Gonçales e 
-Roger De Lima Araújo De Melo 
+Roger De Lima Araújo De Melo. O link da tarefa é: https://github.com/JorgeWilker/Jorge_Wilker_embarcatech_HBr_2025/blob/main/tarefas/tarefa_projeto_integrado_iot_atualizacao_ota/Projeto_Integrado_IoT_Atualiza%C3%A7%C3%A3o_OTA.pdf
 
 ## Semana 8     (05/05/2025)
 Exemplo passo-a-passo de desenvolvimento de um projeto (Galton Board)
