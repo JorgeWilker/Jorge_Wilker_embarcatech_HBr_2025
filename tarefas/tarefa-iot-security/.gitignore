@@ -1,0 +1,109 @@
+# 🔧 Arquivos de Build e Compilação
+build/
+*.uf2
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.dis
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# 📁 Diretórios de Build Alternativos
+cmake-build-*/
+out/
+dist/
+target/
+
+# 🛠️ Arquivos de CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+!pico_sdk_import.cmake
+
+# 💻 IDEs e Editores
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 🐍 Python (se usado para scripts auxiliares)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+
+# 📝 Logs e Arquivos Temporários
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+*.patch
+
+# 🔐 Arquivos de Configuração Sensíveis
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.h
+config_private.h
+
+# 📊 Arquivos de Documentação Gerados
+*.pdf
+!docs/*.pdf
+*.docx
+!docs/*.docx
+
+# 🧪 Arquivos de Teste
+test_results/
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# 🌐 Arquivos de Rede (se contiverem credenciais)
+wifi_credentials.h
+mqtt_credentials.h
+
+# 📱 Arquivos Específicos do Sistema
+.fuse_hidden*
+.directory
+.Trash-*
+ehthumbs.db
+Desktop.ini
+
+# 🔄 Arquivos de Controle de Versão
+.git/
+.gitattributes
+.gitmodules
+
+# 📦 Dependências e Pacotes
+node_modules/
+*.tgz
+*.tar.gz
+
+# 🎯 Arquivos Específicos do Pico SDK
+pico-sdk/
+!pico_sdk_import.cmake

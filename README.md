@@ -56,8 +56,21 @@ Desenvolvemos um projeto Galton Board passo a passo, aplicando conhecimentos pr�
 Teoria: Unidade 2 - Internet das Coisas II
 Estudamos a teoria da Unidade 2 sobre Internet das Coisas II, focando em conceitos avançados. Para está semana foi prosposta duas tarefas a primeira foi fazer uma pesquisa de algum exemplo em que IoT contribui com o contexto da sustentabilidade, a pesquisa se encontra em: https://github.com/JorgeWilker/Jorge_Wilker_embarcatech_HBr_2025/blob/main/tarefas/tarefa_iot_sustentabilidade_JWMA%20v1.1/tarefa_iot_sustentabilidade_JWMA%20v1.1.pdf. Na segunda tarefa, tive a opotunidade de fazer ela com o Mauricio Lasca Gonçalves que é um amigo de turma no curso EmbacaTech. O título que escolhemos foi: SisCalhas: Sistema de monitoramento contínuo de prevenção a 
 entupimentos e transbordamentos e está localizada no link: https://github.com/JorgeWilker/Jorge_Wilker_embarcatech_HBr_2025/blob/main/tarefas/tarefa_%20pesquisa_aplica%C3%A7%C3%B5es_iot_jwma_e_mlg/tarefa_%20pesquisa_aplica%C3%A7%C3%B5es_iot_jwma_e_mlg.pdf
+
+## Semana 10    (19/05/2025)
+Continuação - Unidade 2 - Internet das Coisas II
+Continuamos aprofundando os estudos da Unidade 2 sobre Internet das Coisas II, explorando conceitos avançados e aplicações práticas dos conhecimentos previamente adquiridos.
+
+## Semana 11    (26/05/2025)
+Desenvolvimento do projeto do sintetizador de áudio
+Iniciamos em dupla o desenvolvimento de um projeto prático focado na criação de um sintetizador de áudio, aplicando conhecimentos de processamento de sinais digitais e programação para microcontroladores. Eu e meu parceiro Carlos Amaral empenhamos em criar projeto e a parte mais desafiadora foi a implementação da descripitografia do código cripografado em XOR o link do nosso projeto está em: https://github.com/EmbarcaTech-2025/tarefa-iot-security-lab-jorgewilker_-_carlosamaral/tree/main
+
+## Semana 12    (02/06/2025)
+Teoria: Unidade 3 - Sistemas Operacionais de Tempo-Real
+Começamos os estudos da Unidade 3, abordando os fundamentos teóricos dos Sistemas Operacionais de Tempo-Real (RTOS), suas características, vantagens e aplicações em sistemas embarcados.
+
 ## 📜 Licença
 
 GPL-3.0 License
 
-[Leia mais sobre a licença aqui ](https://www.gnu.org/licenses/#GPL)
+[Leia mais sobre a licença aqui ](https://www.gnu.org/licenses/)
