@@ -1,4 +1,4 @@
-# Projetos de Sistemas Embarcados - EmbarcaTech 2025
+﻿# Projetos de Sistemas Embarcados - EmbarcaTech 2025
 
 Autor: **Jorge Wilker Mamede de Andrade**  
 Curso: Residência Tecnológica em Sistemas Embarcados  
@@ -68,6 +68,9 @@ Iniciamos em dupla o desenvolvimento de um projeto prático focado na criação 
 ## Semana 12    (02/06/2025)
 Teoria: Unidade 3 - Sistemas Operacionais de Tempo-Real
 Começamos os estudos da Unidade 3, abordando os fundamentos teóricos dos Sistemas Operacionais de Tempo-Real (RTOS), suas características, vantagens e aplicações em sistemas embarcados.
+
+## Semana 13    (09/06/2025)
+Prática: Tarefa 1 - Atividade roteirizada com FreeRTOS na BitDogLab: Implementei um sistema multitarefa embarcado avancado usando FreeRTOS para BitDogLab com quatro tarefas concorrentes: LED RGB, buzzer, monitoramento de botoes e sistema de status. Demonstrei conceitos praticos de suspensao e retomada dinamica de tarefas, hierarquia de prioridades e controle GPIO. O projeto foi compilado com sucesso gerando o arquivo .uf2 para BitDogLab.
 
 ## 📜 Licença
 
