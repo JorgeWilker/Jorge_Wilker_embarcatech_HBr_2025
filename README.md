@@ -70,7 +70,7 @@ Teoria: Unidade 3 - Sistemas Operacionais de Tempo-Real
 Começamos os estudos da Unidade 3, abordando os fundamentos teóricos dos Sistemas Operacionais de Tempo-Real (RTOS), suas características, vantagens e aplicações em sistemas embarcados.
 
 ## Semana 13    (09/06/2025)
-Prática: Tarefa 1 - Atividade roteirizada com FreeRTOS na BitDogLab: Implementei um sistema multitarefa embarcado avancado usando FreeRTOS para BitDogLab com quatro tarefas concorrentes: LED RGB, buzzer, monitoramento de botoes e sistema de status. Demonstrei conceitos praticos de suspensao e retomada dinamica de tarefas, hierarquia de prioridades e controle GPIO. O projeto foi compilado com sucesso gerando o arquivo .uf2 para BitDogLab.
+Prática: Tarefa 1 - Atividade roteirizada com FreeRTOS na BitDogLab: Implementei um sistema multitarefa embarcado avancado usando FreeRTOS para BitDogLab com quatro tarefas concorrentes: LED RGB, buzzer, monitoramento de botoes e sistema de status. Demonstrei conceitos praticos de suspensao e retomada dinamica de tarefas, hierarquia de prioridades e controle GPIO. O projeto foi compilado com sucesso gerando o arquivo .uf2 para BitDogLab. O link da tarefa está em: https://github.com/EmbarcaTech-2025/tarefa-freertos-1-JorgeWilker
 
 ## 📜 Licença
 
