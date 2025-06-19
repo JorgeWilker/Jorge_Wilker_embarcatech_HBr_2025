@@ -64,7 +64,7 @@ Continuamos aprofundando os estudos da Unidade 2 sobre Internet das Coisas II, e
 
 ## Semana 11    (26/05/2025)
 Desenvolvimento do projeto do sintetizador de áudio
-Inicie essa projeto que implementa um sintetizador de áudio capaz de gravar e reproduzir áudio usando a plataforma BitDogLab com Raspberry Pi Pico. O sistema utilizou conversão analógico-digital (ADC) para captura de voz através do microfone e modulação por largura de pulso (PWM) para reprodução através de buzzer, com recursos avançados de redução de ruído digital e **visualização da forma de onda em tempo real**. O link do projeto está localizado em: e o link do video demostrativo do funcionamento em: https://youtu.be/CD-abA8Nj0g?si=EYCE9vfCxMalZ4Y7
+Inicie essa projeto que implementa um sintetizador de áudio capaz de gravar e reproduzir áudio usando a plataforma BitDogLab com Raspberry Pi Pico. O sistema utilizou conversão analógico-digital (ADC) para captura de voz através do microfone e modulação por largura de pulso (PWM) para reprodução através de buzzer, com recursos avançados de redução de ruído digital e **visualização da forma de onda em tempo real**. O link do projeto está localizado em: https://github.com/JorgeWilker/Jorge_Wilker_embarcatech_HBr_2025/tree/main/projects/sintetizador_de_audio e o link do video demostrativo do funcionamento em: https://youtu.be/CD-abA8Nj0g?si=EYCE9vfCxMalZ4Y7
 
 ## Semana 12    (02/06/2025)
 Teoria: Unidade 3 - Sistemas Operacionais de Tempo-Real
