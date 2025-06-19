@@ -1,0 +1,36 @@
+# Build artifacts
+build/
+*.elf
+*.bin
+*.hex
+*.uf2
+*.map
+*.dis
+*.o
+*.a
+*.d
+
+# Editor configurations (internal use only)
+.cursor/
+cursor-rules.json
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+*~
+
+# Debug files
+*.gdb
+*.dmp
+debug/
+logs/
+
+# Dependencies and caches
+.pico-sdk/
+.cache/
+node_modules/   
