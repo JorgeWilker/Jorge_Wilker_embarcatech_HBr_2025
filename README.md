@@ -59,11 +59,12 @@ entupimentos e transbordamentos e está localizada no link: https://github.com/J
 
 ## Semana 10    (19/05/2025)
 Continuação - Unidade 2 - Internet das Coisas II
-Continuamos aprofundando os estudos da Unidade 2 sobre Internet das Coisas II, explorando conceitos avançados e aplicações práticas dos conhecimentos previamente adquiridos.
+Continuamos aprofundando os estudos da Unidade 2 sobre Internet das Coisas II, explorando conceitos avançados e aplicações práticas dos conhecimentos previamente adquiridos. Nessa semana foi solicitado criar em dupla um projeto que implementasse um sistema de comunicação IoT seguro utilizando Raspberry Pi Pico W (BitDogLab) com proteção contra ataques de replay e criptografia XOR. Eu e meu parceiro Carlos Amaral empenhamos em criar o  projeto e a parte mais desafiadora foi a implementação da descripitografia do código cripografado em XOR. Mas conseguimos implementar e o sistema demonstrou conceitos fundamentais de segurança em IoT, incluindo confidencialidade de dados, proteção temporal e autenticação via MQTT. o link do nosso projeto está em: https://github.com/JorgeWilker/Jorge_Wilker_embarcatech_HBr_2025/tree/main/tarefas/tarefa-iot-security
+
 
 ## Semana 11    (26/05/2025)
 Desenvolvimento do projeto do sintetizador de áudio
-Iniciamos em dupla o desenvolvimento de um projeto prático focado na criação de um sintetizador de áudio, aplicando conhecimentos de processamento de sinais digitais e programação para microcontroladores. Eu e meu parceiro Carlos Amaral empenhamos em criar projeto e a parte mais desafiadora foi a implementação da descripitografia do código cripografado em XOR o link do nosso projeto está em: https://github.com/EmbarcaTech-2025/tarefa-iot-security-lab-jorgewilker_-_carlosamaral/tree/main
+Inicie essa projeto que implementa um sintetizador de áudio capaz de gravar e reproduzir áudio usando a plataforma BitDogLab com Raspberry Pi Pico. O sistema utilizou conversão analógico-digital (ADC) para captura de voz através do microfone e modulação por largura de pulso (PWM) para reprodução através de buzzer, com recursos avançados de redução de ruído digital e **visualização da forma de onda em tempo real**. O link do projeto está localizado em: e o link do video demostrativo do funcionamento em: https://youtu.be/CD-abA8Nj0g?si=EYCE9vfCxMalZ4Y7
 
 ## Semana 12    (02/06/2025)
 Teoria: Unidade 3 - Sistemas Operacionais de Tempo-Real
@@ -74,7 +75,7 @@ Prática: Tarefa 1 - Atividade roteirizada com FreeRTOS na BitDogLab: Implemente
 
 ## Semana 14    (16/06/2025)
 Prática: Tarefa 2 - Sistema de Controle de Caldeira com FreeRTOS para Raspberry Pi Pico
-Desenvolvi em dupla com o Roger Melo um sistema avançado de controle de caldeira usando FreeRTOS com 6 tarefas concorrentes, hierarquia de prioridades e preempção natural. Implementei 4 estados críticos (OK, Nível Baixo, Temperatura Alta, Pressão Alta) controlados via joystick, com visualização em matriz LED RGB 5x5 e display OLED. O projeto demonstra arquitetura RTOS pura com escalonamento por criticidade e sistema de emergência automática de 5 segundos. O link da tarefa do projeto está em: e o video de desmostração do funcionamento se encontra em: https://youtu.be/Jm8qSbdRBkM?si=09aVbqoJJM6A6uH1
+Desenvolvi em dupla com o Roger Melo um sistema avançado de controle de caldeira usando FreeRTOS com 6 tarefas concorrentes, hierarquia de prioridades e preempção natural. Implementei 4 estados críticos (OK, Nível Baixo, Temperatura Alta, Pressão Alta) controlados via joystick, com visualização em matriz LED RGB 5x5 e display OLED. O projeto demonstra arquitetura RTOS pura com escalonamento por criticidade e sistema de emergência automática de 5 segundos. O link da tarefa do projeto está em: https://github.com/JorgeWilker/Jorge_Wilker_embarcatech_HBr_2025/tree/main/tarefas/tarefa_rtos_dupla e o video de desmostração do funcionamento se encontra em: https://youtu.be/Jm8qSbdRBkM?si=09aVbqoJJM6A6uH1
 
 ## 📜 Licença
 
