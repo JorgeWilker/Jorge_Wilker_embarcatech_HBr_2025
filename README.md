@@ -1,4 +1,4 @@
-﻿# Projetos de Sistemas Embarcados - EmbarcaTech 2025
+# Projetos de Sistemas Embarcados - EmbarcaTech 2025
 
 Autor: **Jorge Wilker Mamede de Andrade**  
 Curso: Residência Tecnológica em Sistemas Embarcados  
@@ -70,7 +70,11 @@ Teoria: Unidade 3 - Sistemas Operacionais de Tempo-Real
 Começamos os estudos da Unidade 3, abordando os fundamentos teóricos dos Sistemas Operacionais de Tempo-Real (RTOS), suas características, vantagens e aplicações em sistemas embarcados.
 
 ## Semana 13    (09/06/2025)
-Prática: Tarefa 1 - Atividade roteirizada com FreeRTOS na BitDogLab: Implementei um sistema multitarefa embarcado avancado usando FreeRTOS para BitDogLab com quatro tarefas concorrentes: LED RGB, buzzer, monitoramento de botoes e sistema de status. Demonstrei conceitos praticos de suspensao e retomada dinamica de tarefas, hierarquia de prioridades e controle GPIO. O projeto foi compilado com sucesso gerando o arquivo .uf2 para BitDogLab. O link da tarefa está em: https://github.com/EmbarcaTech-2025/tarefa-freertos-1-JorgeWilker
+Prática: Tarefa 1 - Atividade roteirizada com FreeRTOS na BitDogLab: Implementei um sistema multitarefa embarcado avançado usando FreeRTOS para BitDogLab com quatro tarefas concorrentes: LED RGB, buzzer, monitoramento de botões e sistema de status. Demonstrei conceitos práticos de suspensão e retomada dinâmica de tarefas, hierarquia de prioridades e controle GPIO. O projeto foi compilado com sucesso gerando o arquivo .uf2 para BitDogLab. O link da tarefa está em: https://github.com/EmbarcaTech-2025/tarefa-freertos-1-JorgeWilker
+
+## Semana 14    (16/06/2025)
+Prática: Tarefa 2 - Sistema de Controle de Caldeira com FreeRTOS para Raspberry Pi Pico
+Desenvolvi em dupla com o Roger Melo um sistema avançado de controle de caldeira usando FreeRTOS com 6 tarefas concorrentes, hierarquia de prioridades e preempção natural. Implementei 4 estados críticos (OK, Nível Baixo, Temperatura Alta, Pressão Alta) controlados via joystick, com visualização em matriz LED RGB 5x5 e display OLED. O projeto demonstra arquitetura RTOS pura com escalonamento por criticidade e sistema de emergência automática de 5 segundos. O link da tarefa do projeto está em: e o video de desmostração do funcionamento se encontra em: https://youtu.be/Jm8qSbdRBkM?si=09aVbqoJJM6A6uH1
 
 ## 📜 Licença
 

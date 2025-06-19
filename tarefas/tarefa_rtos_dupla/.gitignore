@@ -1,0 +1,77 @@
+# =============================================================================
+# .GITIGNORE PADRÃO PARA PROJETOS DE SISTEMAS EMBARCADOS
+# Baseado na regra-gitignore-padrao para desenvolvimento com Raspberry Pi Pico
+# =============================================================================
+
+# Build artifacts
+build/
+*.elf
+*.bin
+*.hex
+*.uf2
+*.map
+*.dis
+*.o
+*.a
+
+# Editor configurations (internal use only)
+.cursor/
+cursor-rules.json
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.gdb
+*.dmp
+debug/
+logs/
+
+# Dependencies and caches
+.pico-sdk/
+.cache/
+node_modules/
+
+# Project specific for Raspberry Pi Pico
+cmake_install.cmake
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Generated files from PIO programs
+*.pio.h
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# IDE specific files
+*.swp
+*.swo
+.idea/
+*.sublime-*
+
+# System files
+*.orig
+*.rej
+.git/
+
+# Documentation generated files
+docs/build/
+*.pdf
+
+# Secrets and sensitive data
+secrets/
+*.key
+*.pem
+config.h.local 
