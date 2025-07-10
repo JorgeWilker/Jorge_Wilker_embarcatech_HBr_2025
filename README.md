@@ -77,6 +77,18 @@ Prática: Tarefa 1 - Atividade roteirizada com FreeRTOS na BitDogLab: Implemente
 Prática: Tarefa 2 - Sistema de Controle de Caldeira com FreeRTOS para Raspberry Pi Pico
 Desenvolvi em dupla com o Roger Melo um sistema avançado de controle de caldeira usando FreeRTOS com 6 tarefas concorrentes, hierarquia de prioridades e preempção natural. Implementei 4 estados críticos (OK, Nível Baixo, Temperatura Alta, Pressão Alta) controlados via joystick, com visualização em matriz LED RGB 5x5 e display OLED. O projeto demonstra arquitetura RTOS pura com escalonamento por criticidade e sistema de emergência automática de 5 segundos. O link da tarefa do projeto está em: https://github.com/JorgeWilker/Jorge_Wilker_embarcatech_HBr_2025/tree/main/tarefas/tarefa_rtos_dupla e o video de desmostração do funcionamento se encontra em: https://youtu.be/Jm8qSbdRBkM?si=09aVbqoJJM6A6uH1
 
+## Semana 15    (23/06/2025)
+Projeto em Desenvolvimento: Robô Equilibrista (Pêndulo Invertido)
+Iniciei o desenvolvimento de um robô móvel de duas rodas com capacidade de auto-estabilização dinâmica, baseado nos princípios do pêndulo invertido controlado. O projeto utiliza BitDogLab, sensor MPU-6050 para dados inerciais, driver TB6612FNG para controle de motores DC, e implementa algoritmos de controle PID com filtro complementar para fusão sensorial. O sistema deve ser capaz de manter-se equilibrado na posição vertical, atuando de forma análoga a um pêndulo invertido, através da leitura contínua de sensores e aplicação de forças corretivas nas rodas. O projeto está em fase de desenvolvimento com foco em implementação modular, controle em tempo real e ajuste empírico dos parâmetros de controle. Este é um projeto complexo que integra conceitos de modelagem dinâmica, fusão sensorial e controle de sistemas não lineares, sendo amplamente usado no ensino de teoria de controle. (🚧 Em desenvolvimento)
+
+## Semana 16    (30/06/2025)
+Prática: Tarefa Acelerômetro MPU-6050 com Display OLED
+Recebi meu kit basico de sensores da EmbarcaTech e Desenvolvi uma aplicação para leitura de dados do sensor MPU-6050 (acelerômetro e giroscópio de 6 eixos) usando Raspberry Pi Pico com exibição simultânea no terminal serial e display OLED SSD1306 via comunicação I2C. O sistema utiliza duas interfaces I2C independentes: I2C0 para o MPU-6050 e I2C1 para o display OLED, proporcionando uma solução robusta de monitoramento de movimento em tempo real. Os dados são atualizados a cada 1 segundo, exibindo valores de aceleração e rotação nos eixos X, Y e Z. O link da tarefa está em: https://github.com/JorgeWilker/Jorge_Wilker_embarcatech_HBr_2025/tree/main/tarefas/tarefa_acelerometro
+
+## Semana 17    (07/07/2025)
+Prática: Projeto Controle de Motores DC com IMU v2.0
+Implementei um sistema inteligente de controle de motores DC baseado em dados inerciais do sensor MPU-6050 usando Raspberry Pi Pico. O sistema utiliza o driver TB6612FNG para controlar dois motores independentes, respondendo aos movimentos detectados pelo acelerômetro e giroscópio. O projeto integra múltiplos periféricos: MPU-6050 via I2C0, display OLED SSD1306 via I2C1, e controle PWM para os motores através do driver TB6612FNG. A lógica de controle inclui detecção de movimento baseada em limites configuráveis, controle direcional inteligente (movimento frontal/traseiro e rotação), velocidade proporcional à magnitude do movimento e limites de segurança. Os dados são exibidos em tempo real no terminal serial e display OLED, com atualização a cada 0.5 segundos. O link da tarefa está em: https://github.com/JorgeWilker/Jorge_Wilker_embarcatech_HBr_2025/tree/main/tarefas/tarefa_motor_dc_bitdoglab
+
 ## 📜 Licença
 
 GPL-3.0 License
