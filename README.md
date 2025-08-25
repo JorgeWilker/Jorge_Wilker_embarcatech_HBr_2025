@@ -90,7 +90,11 @@ Prática: Projeto Controle de Motores DC com IMU v2.0
 Implementei um sistema inteligente de controle de motores DC baseado em dados inerciais do sensor MPU-6050 usando Raspberry Pi Pico. O sistema utiliza o driver TB6612FNG para controlar dois motores independentes, respondendo aos movimentos detectados pelo acelerômetro e giroscópio. O projeto integra múltiplos periféricos: MPU-6050 via I2C0, display OLED SSD1306 via I2C1, e controle PWM para os motores através do driver TB6612FNG. A lógica de controle inclui detecção de movimento baseada em limites configuráveis, controle direcional inteligente (movimento frontal/traseiro e rotação), velocidade proporcional à magnitude do movimento e limites de segurança. Os dados são exibidos em tempo real no terminal serial e display OLED, com atualização a cada 0.5 segundos. O link da tarefa está em: https://github.com/JorgeWilker/Jorge_Wilker_embarcatech_HBr_2025/tree/main/tarefas/tarefa_motor_dc_bitdoglab
 
 ## Semana 18    (14/07/2025)
-Projeto final - preparação para a primeira (1/4) entrega: Iniciei a preparação dos materiais para a primeira entrega parcial do projeto final, organizando código, esquemas e registros de testes.
+Projeto final - preparação para a primeira (1/4) entrega: Iniciei a preparação dos materiais para a primeira entrega parcial do projeto final, organizando código, esquemas e registros de testes. Esse projeto é uma etapa obrigatória do programa EmbarcaTech. Minha equipe é composta por: Mauricio Gonçales, Roger de Lima Araujo de Melo, Guilherme Alves dos Santos e eu, Jorge Wilker Mamede de Andrade.
+
+Nesta semana, começamos a estruturar o **Sistema de Monitoramento de Ozônio v1.0**, cujo objetivo é implementar um sistema automatizado para monitoramento da concentração de ozônio em clínicas de ozonioterapia. O sistema foi pensado para garantir segurança operacional em ambientes clínicos críticos, utilizando o sensor ZE14-O3 da Winsen, que permite medições precisas em 6 níveis diferenciados (0.1 a 100 ppm). Também planejamos a integração de alertas sonoros hospitalares específicos, além de um sistema de ventilação automática de emergência.
+
+No desenvolvimento, optamos pelo uso do Raspberry Pi Pico como microcontrolador principal (ARM Cortex-M0+), o sensor ZE14-O3 para detecção do ozônio, buzzer MLT-8530 para os alertas médicos, motor de passo 28BYJ-48 para acionar a ventilação e LEDs para indicar o status do sistema. No lado do software, estamos utilizando o Pico SDK 2.1.1, CMake + Ninja para a compilação e comunicação UART a 9600 bps com o sensor. Estou bastante animado com o desafio, pois além de integrar hardware e software, o projeto tem um impacto direto na segurança de ambientes médicos.
 
 ## Semana 19    (21/07/2025)
 Campinas: Recesso
@@ -100,7 +104,7 @@ Campinas: Recesso
 
 ## Semana 21    (04/08/2025)
 Projeto final - Acolhida dos projetos com análise individual das entregas 1/4. Preparação para a segunda (2/4) entrega.  
-Participei da acolhida dos projetos, recebendo feedback individual sobre a primeira entrega do projeto final. Analisei os pontos de melhoria sugeridos e iniciei a implementação dos ajustes necessários. Realizei o unboxing do Kit Avançado, avaliando os novos componentes disponíveis e realinhando os objetivos do projeto final para aproveitar ao máximo o hardware recebido.
+Participei da acolhida dos projetos, recebendo feedback individual sobre a primeira entrega do projeto final. Analisei os pontos de melhoria sugeridos e iniciei a implementação dos ajustes necessários. Realizei o unboxing do Kit Avançado, avaliando os novos componentes disponíveis e realinhando os objetivos do projeto final para aproveitar ao máximo o hardware recebido. Link do Github do Projeto: https://github.com/mauriciolasgon/monitoramento_O3/tree/sistema_medica_O3_v1.1
 
 ## Semana 22    (11/08/2025)  
 Campinas: Avaliação entrega 1/4. Apresentação - pelos estudantes - da entrega 2/4. Acompanhamento projeto e preparação à entrega 3/4. Atualizações do material debug com pico. Acompanhei a avaliação da entrega 1/4 e participei da apresentação da entrega 2/4 em Campinas. Recebi orientações para aprimorar o projeto e iniciei a preparação para a terceira entrega. 
@@ -111,7 +115,7 @@ A semana foi dedicada ao debug intensivo do hardware com a placa de debug, ident
 
 ## Semana 24    (25/08/2025)
 Projeto final - preparação para a terceira (3/4) entrega  
-Iniciei a preparação para a terceira entrega parcial do projeto final, consolidando os avanços obtidos até o momento. Foquei na documentação detalhada do sistema, testes de desempenho e elaboração de vídeos demonstrativos. Planejei os próximos passos para a conclusão do projeto, priorizando a estabilidade e a apresentação dos resultados finais.
+Iniciei a preparação para a terceira entrega parcial do projeto final, consolidando os avanços obtidos até o momento. Foquei na documentação detalhada do sistema, testes de desempenho e elaboração de vídeos demonstrativos. Planejei os próximos passos para a conclusão do projeto, priorizando a estabilidade e a apresentação dos resultados finais. Vídeo do primeiros testes: https://www.youtube.com/watch?si=OhqI61mi6hVe33S0&v=s4rRpmaSJRg&feature=youtu.be
 
 ## 📜 Licença
 
