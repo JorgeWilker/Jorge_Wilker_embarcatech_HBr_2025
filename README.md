@@ -89,6 +89,30 @@ Recebi meu kit basico de sensores da EmbarcaTech e Desenvolvi uma aplicação pa
 Prática: Projeto Controle de Motores DC com IMU v2.0
 Implementei um sistema inteligente de controle de motores DC baseado em dados inerciais do sensor MPU-6050 usando Raspberry Pi Pico. O sistema utiliza o driver TB6612FNG para controlar dois motores independentes, respondendo aos movimentos detectados pelo acelerômetro e giroscópio. O projeto integra múltiplos periféricos: MPU-6050 via I2C0, display OLED SSD1306 via I2C1, e controle PWM para os motores através do driver TB6612FNG. A lógica de controle inclui detecção de movimento baseada em limites configuráveis, controle direcional inteligente (movimento frontal/traseiro e rotação), velocidade proporcional à magnitude do movimento e limites de segurança. Os dados são exibidos em tempo real no terminal serial e display OLED, com atualização a cada 0.5 segundos. O link da tarefa está em: https://github.com/JorgeWilker/Jorge_Wilker_embarcatech_HBr_2025/tree/main/tarefas/tarefa_motor_dc_bitdoglab
 
+## Semana 18    (14/07/2025)
+Projeto final - preparação para a primeira (1/4) entrega: Iniciei a preparação dos materiais para a primeira entrega parcial do projeto final, organizando código, esquemas e registros de testes.
+
+## Semana 19    (21/07/2025)
+Campinas: Recesso
+
+## Semana 20    (28/07/2025)
+Campinas: Recesso  
+
+## Semana 21    (04/08/2025)
+Projeto final - Acolhida dos projetos com análise individual das entregas 1/4. Preparação para a segunda (2/4) entrega.  
+Participei da acolhida dos projetos, recebendo feedback individual sobre a primeira entrega do projeto final. Analisei os pontos de melhoria sugeridos e iniciei a implementação dos ajustes necessários. Realizei o unboxing do Kit Avançado, avaliando os novos componentes disponíveis e realinhando os objetivos do projeto final para aproveitar ao máximo o hardware recebido.
+
+## Semana 22    (11/08/2025)  
+Campinas: Avaliação entrega 1/4. Apresentação - pelos estudantes - da entrega 2/4. Acompanhamento projeto e preparação à entrega 3/4. Atualizações do material debug com pico. Acompanhei a avaliação da entrega 1/4 e participei da apresentação da entrega 2/4 em Campinas. Recebi orientações para aprimorar o projeto e iniciei a preparação para a terceira entrega. 
+
+## Semana 23    (18/08/2025)  
+Entrega das notas e ajustes da entrega 2/4 do projeto Final.  
+A semana foi dedicada ao debug intensivo do hardware com a placa de debug, identificando e corrigindo falhas de comunicação entre módulos e otimizando o consumo de energia. Recebi as notas da entrega 2/4 e realizei os ajustes finais conforme o feedback recebido.
+
+## Semana 24    (25/08/2025)
+Projeto final - preparação para a terceira (3/4) entrega  
+Iniciei a preparação para a terceira entrega parcial do projeto final, consolidando os avanços obtidos até o momento. Foquei na documentação detalhada do sistema, testes de desempenho e elaboração de vídeos demonstrativos. Planejei os próximos passos para a conclusão do projeto, priorizando a estabilidade e a apresentação dos resultados finais.
+
 ## 📜 Licença
 
 GPL-3.0 License

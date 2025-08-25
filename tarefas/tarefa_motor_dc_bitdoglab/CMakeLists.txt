@@ -8,7 +8,7 @@ cmake_minimum_required(VERSION 3.13)
 if(DEFINED ENV{PICO_SDK_PATH})
     set(PICO_SDK_PATH $ENV{PICO_SDK_PATH})
 else()
-    set(PICO_SDK_PATH "C:/Users/Jorge Wilker Tech/.pico-sdk/sdk/2.1.1" CACHE PATH "Path to the Raspberry Pi Pico SDK")
+    set(PICO_SDK_PATH "C:/Users/jorge_wilker_tech/.pico-sdk/sdk/2.1.1" CACHE PATH "Path to the Raspberry Pi Pico SDK")
 endif()
 
 # Configuração do padrão de compilação
@@ -36,29 +36,77 @@ project(tarefa_motor_dc_bitdoglab C CXX ASM)
 pico_sdk_init()
 
 # -----------------------------------------------------------------------------
+# Bibliotecas do projeto
+# -----------------------------------------------------------------------------
+# Biblioteca do display SSD1306
+add_library(ssd1306_i2c
+    include/ssd1306_i2c.c
+)
+
+target_include_directories(ssd1306_i2c PUBLIC
+    ${CMAKE_CURRENT_LIST_DIR}/include
+)
+
+target_link_libraries(ssd1306_i2c
+    pico_stdlib
+    hardware_i2c
+)
+
+# Biblioteca do driver do motor TB6612FNG
+add_library(tb6612fng
+    include/tb6612fng.c
+)
+
+target_include_directories(tb6612fng PUBLIC
+    ${CMAKE_CURRENT_LIST_DIR}/include
+)
+
+target_link_libraries(tb6612fng
+    pico_stdlib
+    hardware_pwm
+)
+
+# -----------------------------------------------------------------------------
 # Executável principal
 # -----------------------------------------------------------------------------
 add_executable(tarefa_motor_dc_bitdoglab
     src/main.c
-    include/ssd1306_i2c.c
-    include/tb6612fng.c
 )
 
 target_include_directories(tarefa_motor_dc_bitdoglab PRIVATE
-    ${CMAKE_CURRENT_LIST_DIR}
+    ${CMAKE_CURRENT_LIST_DIR}/src
     ${CMAKE_CURRENT_LIST_DIR}/include
 )
 
-# Bibliotecas para o executável principal - Configuração padrão (sem wireless)
-target_link_libraries(tarefa_motor_dc_bitdoglab
-    pico_stdlib
-    hardware_i2c        # Necessário para comunicação I2C com MPU6050
-    hardware_pwm        # Necessário para controle PWM dos motores TB6612FNG
-    pico_binary_info    # Para informações binárias
-    m                   # Biblioteca matemática para cálculos de temperatura
-)
-
-message(STATUS "Compilando projeto controle de motores DC - versão padrão sem componentes wireless")
+# Bibliotecas para o executável principal
+if(ENABLE_WIRELESS AND (${PICO_BOARD} STREQUAL "pico_w"))
+    # Configuração com suporte wireless (para Pico W)
+    target_link_libraries(tarefa_motor_dc_bitdoglab
+        pico_stdlib
+        hardware_i2c        # Necessário para comunicação I2C com display
+        hardware_pwm        # Necessário para controle PWM dos motores TB6612FNG
+        pico_cyw43_arch_none  # Adiciona suporte wireless básico (sem networking)
+        pico_binary_info    # Para informações binárias
+        m                   # Biblioteca matemática
+        ssd1306_i2c
+        tb6612fng
+    )
+    
+    message(STATUS "Compilando com suporte wireless para Pico W")
+else()
+    # Configuração padrão (sem wireless)
+    target_link_libraries(tarefa_motor_dc_bitdoglab
+        pico_stdlib
+        hardware_i2c        # Necessário para comunicação I2C com display
+        hardware_pwm        # Necessário para controle PWM dos motores TB6612FNG
+        pico_binary_info    # Para informações binárias
+        m                   # Biblioteca matemática
+        ssd1306_i2c
+        tb6612fng
+    )
+    
+    message(STATUS "Compilando projeto controle de motores DC - versão padrão sem componentes wireless")
+endif()
 
 # Configura a saída via USB e UART
 pico_enable_stdio_usb(tarefa_motor_dc_bitdoglab 1)
@@ -70,11 +118,11 @@ pico_add_extra_outputs(tarefa_motor_dc_bitdoglab)
 # -----------------------------------------------------------------------------
 # Instruções para compilação
 # -----------------------------------------------------------------------------
-# Para compilar o projeto:
-#   mkdir build
-#   cd build
-#   cmake ..
-#   cmake --build .
+# Para compilar com suporte wireless (apenas para Pico W):
+#   cmake -DENABLE_WIRELESS=ON -DPICO_BOARD=pico_w ..
+#
+# Para compilar a versão padrão (sem wireless):
+#   cmake .. 
 #
 # O arquivo .uf2 será gerado em build/tarefa_motor_dc_bitdoglab.uf2
 # Transfira este arquivo para o Raspberry Pi Pico em modo BOOTSEL
